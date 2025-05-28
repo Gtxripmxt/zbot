@@ -29,8 +29,8 @@ class $modify(zGJBaseGameLayer, GJBaseGameLayer) {
             while (clickBotIndex < mgr->currentReplay->inputs.size() && 
                    mgr->currentReplay->inputs[clickBotIndex].frame < m_gameState.m_currentProgress + offset) {
                 
-                auto click = mgr->currentReplay->inputs[clickBotIndex++];
-                mgr->playSound(click.player2, click.button, click.down);
+          //      auto click = mgr->currentReplay->inputs[clickBotIndex++];
+             //   mgr->playSound(click.player2, click.button, click.down);
             }
         }
     }
