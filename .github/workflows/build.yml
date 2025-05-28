@@ -31,8 +31,6 @@ jobs:
         uses: geode-sdk/build-geode-mod@main
         with:
           combine: true
-          cli: "latest"
-          sdk: "nightly"
       
   package:
     name: Package builds
